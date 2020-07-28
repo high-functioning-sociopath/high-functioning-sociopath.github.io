@@ -1,0 +1,72 @@
+
+#open-modal {
+    width: 100%;
+    display: block;
+    margin: 50px auto;
+    background-color: #cccccc;
+    border: 1px solid #777777;
+    font-size: inherit;
+    font-family: inherit;
+    cursor: pointer;
+    padding: 15px;
+}
+
+#modal-container-private {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.8);
+    top: 0;
+    left: 0;
+    display: none;
+}
+
+#modal-private {
+    margin-top: 2rem !important;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+    height: 100%;
+    line-height: 150px;
+    text-align: center;
+/*    border: 1px solid #cccccc;*/
+    background-color: #0e4a75; /* For browsers that do not support gradients */
+    background-image: linear-gradient(167deg, rgba(2,0,36,1) 0%, rgba(14,74,112,1) 61%, rgba(28,165,204,1) 86%);
+}
+
+#close-modal {
+    width: 2rem;
+    height: 2rem;
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    color: white;
+    font-size: 30px;
+    font-family: inherit;
+    cursor: pointer;
+    background-color: transparent;
+    border: none;
+}
+.clickme {
+  font-size: 0.90rem;
+  color: #86a4b8;
+  text-align: center;
+  display: contents!important;
+
+  border-radius: 100rem;
+  padding: 1.4rem 3.2rem;
+  transition: .2s;
+}
+.clickme:hover,
+.clickme:focus {
+  -webkit-transform: translateY(-.2rem);
+          transform: translateY(-.2rem);
+    color: white;
+}
+
+.description{
+    margin-top: 2em !important;
+    padding: 2px 2px 2px;
+}
